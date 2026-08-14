@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.navigations ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links:hover {
+  color: #635bff;
+}
+
+.main-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #635bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5149d8;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#hero h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0 auto 20px;
+  max-width: 800px;
+}
+
+#hero p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  color: #555;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-visual {
+  width: 100%;
+  max-width: 900px;
+  height: 300px;
+  margin: 60px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+.section {
+  padding: 60px;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+#trust-logos h2 {
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 24px;
+  color: #555;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: white;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.feature-icon {
+  display: inline-block;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.feature-card p {
+  margin: 0;
+  color: #666;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+#product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+#product h2 {
+  margin: 0 0 15px;
+  font-size: 40px;
+}
+
+#product p {
+  margin: 0 0 25px;
+  color: #555;
+  font-size: 18px;
+}
+
+.product-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.testimonial {
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.testimonial p {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+
+.testimonial span {
+  color: #666;
+}
+
+#cta {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+#cta h2 {
+  margin: 0 0 15px;
+  font-size: 36px;
+}
+
+#cta p {
+  margin: 0 0 25px;
+  color: #555;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 60px;
+  background-color: #111;
+  color: white;
+}
+
+.footer-navigations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.footer-navigations h3 {
+  margin: 0 0 15px;
+  font-size: 16px;
+}
+
+.footer-navigations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigations a {
+  color: #aaa;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-navigations a:hover {
+  color: white;
+}
+
+.footer > p {
+  margin: 40px 0 0;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
