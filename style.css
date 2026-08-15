@@ -4,8 +4,10 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  color: #111;
+  background-color: #fafafa;
 }
 
 .navbar {
@@ -70,6 +72,9 @@ body {
   line-height: 1.1;
   margin: 0 auto 20px;
   max-width: 800px;
+
+  font-weight: 700;
+  letter-spacing: -1px;
 }
 
 #hero p {
@@ -95,6 +100,10 @@ body {
   justify-content: center;
   background-color: #f1f1f1;
   border-radius: 12px;
+
+  border: 1px solid #e5e5e5;
+  color: #777;
+  font-size: 18px;
 }
 
 .section {
@@ -129,6 +138,8 @@ body {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .feature-icon {
@@ -167,6 +178,10 @@ body {
   justify-content: center;
   background-color: #f1f1f1;
   border-radius: 12px;
+
+  border: 1px solid #e5e5e5;
+  color: #777;
+  font-size: 18px;
 }
 
 #product h2 {
@@ -198,6 +213,8 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   background-color: white;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .testimonial p {
@@ -213,11 +230,13 @@ body {
   text-align: center;
   background-color: #f1f1f1;
   border-radius: 12px;
+
+  border: 1px solid #e5e5e5;
 }
 
 #cta h2 {
   margin: 0 0 15px;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 #cta p {
@@ -241,7 +260,9 @@ body {
 
 .footer-navigations h3 {
   margin: 0 0 15px;
-  font-size: 16px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .footer-navigations ul {
@@ -284,6 +305,18 @@ main {
 .button:focus-visible {
   outline: 2px solid #635bff;
   outline-offset: 3px;
+}
+
+.section h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0 0 30px;
+}
+
+.company-logos span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #777;
 }
 
 @media (max-width: 768px) {
