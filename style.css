@@ -280,6 +280,12 @@ main {
   gap: 15px;
 }
 
+.links:focus-visible,
+.button:focus-visible {
+  outline: 2px solid #635bff;
+  outline-offset: 3px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
