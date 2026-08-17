@@ -89,8 +89,8 @@ No license has been added yet.
 
 ## 🔗 GitHub Repository
 
-This project is available on GitHub.
+[Repository link](https://github.com/sktawfiq/company-website-clone)
 
 ## 📌 Disclaimer
 
-This project was created for educational purposes as part of my web development bootcamp. It is not affiliated with or endorsed by any real company
+This project was created for educational purposes as part of my web development bootcamp. It is not affiliated with or endorsed by any real company.
