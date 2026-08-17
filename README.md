@@ -4,7 +4,7 @@ A responsive company website landing page built from scratch using **HTML5 and C
 
 ## 🚀 Live Demo
 
-Coming soon.
+[View the live website](https://sktawfiq.github.io/company-website-clone/)
 
 ## 📸 Screenshots
 
@@ -90,3 +90,7 @@ No license has been added yet.
 ## 🔗 GitHub Repository
 
 This project is available on GitHub.
+
+## 📌 Disclaimer
+
+This project was created for educational purposes as part of my web development bootcamp. It is not affiliated with or endorsed by any real company
