@@ -279,6 +279,73 @@ body {
   align-items: center;
 }
 
+.payment-card {
+  width: 80%;
+  height: 80%;
+  padding: 25px;
+  border-radius: 14px;
+  background-color: #635bff;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.payment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-card-header span {
+  font-size: 18px;
+}
+
+.payment-balance {
+  margin-top: 35px;
+}
+
+.payment-balance span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.payment-balance strong {
+  font-size: 28px;
+}
+
+.payment-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.payment-card {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.payment-card-header,
+.payment-balance,
+.payment-card-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.payment-card::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: -80px;
+  top: -80px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
 .testimonial-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -445,5 +512,17 @@ main {
   .hero-visual {
     height: auto;
     padding: 20px;
+  }
+
+  .product-img {
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+  }
+
+  .payment-card {
+    width: 100%;
+    min-height: 240px;
+    height: auto;
   }
 }
